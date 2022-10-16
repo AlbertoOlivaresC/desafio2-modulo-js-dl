@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafío 2 modulo JS - Alberto Olivares</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#parte1">Parte 1</a></li>
+                <li><a href="#parte2">Parte 2</a></li>
+                <li><a href="#parte3">Parte 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <!-------------PARTE 1 ----------->
+        <section id="parte1" class="container">
+            <h2>Desafío 2 Javascript Parte 1:</h2>
+            <p>Borde en logo de Cyberpunk</p>
+            <img class="background-img" src="assets/imgs/cyberpunk-2077-image-block-02-ps4-ps5-en-17feb22.webp" alt="">
+            <img class="logo-img" src="assets/imgs/Cyberpunk_2077_logo.svg.png" alt="cyberpunk-logo">
+        </section>
+        <!-------------PARTE 2 ----------->
+        <section id="parte2" class="container">
+            <h2>Desafío 2 Javascript Parte 2:</h2>
+            <p>Puedes llevar hasta 10 stickers</p>
+            <div class="container-stickers">
+                <div class="card">
+                    <h3>Japanese Cyberpunk</h3>
+                    <img src="assets/imgs/sticker-1.jpg" alt="">
+                    <input class="input-sticker1" type="number" value="0">
+                </div>
+                <div class="card">
+                    <h3>David and Lucy</h3>
+                    <img src="assets/imgs/sticker-2.jpg" alt="">
+                    <input class="input-sticker2" type="number" value="0">
+                </div>
+                <div class="card">
+                    <h3>Keanu Reeves</h3>
+                    <img src="assets/imgs/sticker-3.jpg" alt="">
+                    <input class="input-sticker3" type="number" value="0">
+                </div>    
+            </div>
+            <p id="resultado"></p>
+            <button id="comprobar-cantidad"><h3>Comprobar cantidad</h3></button>
+        </section>
+        <!-------------PARTE 3 ----------->
+        <section id="parte3" class="container-flex">
+            <img src="assets/imgs/img-pass.png" alt="">
+            <div class="container">
+                <h2>Desafío 2 Javascript Parte 3</h2>
+                <p>Ingresa tu contraseña</p>
+                <div class="container-password">
+                    <select name="pass" id="password1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="pass" id="password2">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="pass" id="password3">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <button id="btn-ingresar-password"><h3>Ingresar</h3></button>
+                <p id="resultado-password"></p>
+            </div>
+        </section>
+    </main>
+    <script src="main.js">
+    </script>
+</body>
+</html>

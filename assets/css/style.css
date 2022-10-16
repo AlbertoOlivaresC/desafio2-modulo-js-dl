@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Blender Pro Book';
+    src: url(/assets/fonts/Blender-Pro-Book.otf);
+}
+@font-face {
+    font-family: 'Blender Pro Bold';
+    src: url(/assets/fonts/Blender-Pro-Bold.otf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#C5BE02,#F6E907);
+    font-family: 'Blender Pro Book', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Blender Pro Bold', sans-serif;
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+}
+
+nav{
+    background-color: #050505;
+    padding: 10px 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color:#00FFD2;
+}
+
+
+/* --------------------------------- PARTE 1 - BORDE ----------------------------------- */
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    gap: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.background-img{
+    width: 650px;
+    position: relative;
+}
+.logo-img{
+    width: 600px;
+    position: absolute;
+    bottom: 250px;
+}
+.border-logo{
+    border: #00FFD2 solid 6px;
+}
+
+/* ---------------------------------- PARTE 2 - STICKERS ---------------------------- */
+.container-stickers{
+    display: flex;
+    gap: 10px
+}
+
+.card{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+.card h3{
+    font-size: 1.8rem;
+}
+.card img{
+    width: 350px;
+}
+
+button{
+    width: 300px;
+    height: 80px;
+    background-color: #3C3519;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: #FF003C;
+}
+button h3{
+    font-size: 26px;
+}
+
+/* ---------------------------------- PARTE 3 - PASSWORD ------------------------------ */
+
+.container-flex{
+    display: flex;
+}
+.container-flex img{
+    width: 600px;
+}
+
+.container-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+select{
+    width: 100px;
+}
+.container-password p{
+    display: none;
+}
+
