@@ -1,10 +1,20 @@
+/*
 @font-face {
     font-family: 'Blender Pro Book';
-    src: url(/assets/fonts/Blender-Pro-Book.otf);
+    src: url(assets/fonts/Blender-Pro-Book.otf);
 }
 @font-face {
     font-family: 'Blender Pro Bold';
-    src: url(/assets/fonts/Blender-Pro-Bold.otf);
+    src: url(assets/fonts/Blender-Pro-Bold.otf);
+}
+*/
+@font-face {
+    font-family: 'Blender Pro Book';
+    src: url(Blender-Pro-Book.otf);
+}
+@font-face {
+    font-family: 'Blender Pro Bold';
+    src: url(Blender-Pro-Bold.otf);
 }
 *{
     box-sizing: border-box;
