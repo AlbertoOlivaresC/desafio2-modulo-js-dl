@@ -71,7 +71,7 @@ nav{
 .logo-img{
     width: 600px;
     position: absolute;
-    bottom: 250px;
+    bottom: auto;
 }
 .border-logo{
     /*border: #00FFD2 solid 2px; con este queda más bonito*/
