@@ -35,7 +35,7 @@ comprobarCantidad.addEventListener("click", () => {
         resultado.style.fontSize = "2rem";
         resultado.style.color = "black";
     } else if(cantidadTotal > 10) {
-        resultado.textContent = `Llevas demasiados stickers`;
+        resultado.textContent = `Llevas ${cantidadTotal} stickers, el máximo es 10!`;
         resultado.style.fontSize = "2rem";
     } else {
         resultado.textContent = `Cantidad no valida, ingresar sólo números y no dejar campos vacíos`;

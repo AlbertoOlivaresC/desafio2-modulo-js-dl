@@ -1,13 +1,3 @@
-/*
-@font-face {
-    font-family: 'Blender Pro Book';
-    src: url(assets/fonts/Blender-Pro-Book.otf);
-}
-@font-face {
-    font-family: 'Blender Pro Bold';
-    src: url(assets/fonts/Blender-Pro-Bold.otf);
-}
-*/
 @font-face {
     font-family: 'Blender Pro Book';
     src: url(Blender-Pro-Book.otf);
@@ -84,7 +74,8 @@ nav{
     bottom: 250px;
 }
 .border-logo{
-    border: #00FFD2 solid 6px;
+    /*border: #00FFD2 solid 2px; con este queda más bonito*/
+    border: red solid 2px;
 }
 
 /* ---------------------------------- PARTE 2 - STICKERS ---------------------------- */
@@ -110,7 +101,9 @@ nav{
 .card img{
     width: 350px;
 }
-
+.card input{
+    padding: 0.2rem;
+}
 button{
     width: 300px;
     height: 80px;
@@ -146,4 +139,6 @@ select{
 .container-password p{
     display: none;
 }
-
+.container-password select{
+    padding: 0.2rem;
+}
